@@ -1,0 +1,60 @@
+/* General */
+body{
+}
+
+.installer-button{
+    background-color: #357295;
+    font-weight: 700;
+    font-size: 14px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    cursor:pointer;
+    font-family: sans-serif;
+    min-width:200px;
+
+    transition-property: none !important;
+}
+.installer-button:hover,
+.installer-button:active,
+.installer-button:focus {
+    background-color: rgb(81, 115, 132);
+}
+
+/* Installer */
+#installer{
+    background-color: rgb(241, 241, 241);
+
+    width:450px;
+    margin:50px auto 0;
+
+    -moz-box-shadow: 4px 6px 12px 2px #c0c0c0;
+    -webkit-box-shadow: 4px 6px 12px 2px #c0c0c0;
+    -o-box-shadow: 4px 6px 12px 2px #c0c0c0;
+    box-shadow: 4px 6px 12px 2px #c0c0c0;
+}
+#installer-title{
+    background-color: #357295;
+    padding: 30px;
+    border-radius: 3px 3px 0 0;
+    text-align: center;
+}
+#installer-title h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+    margin:0;
+}
+
+/* Installer step */
+.step{
+    padding:20px;
+}
+.step-title{
+    text-align:center;
+    margin-bottom:10px;
+}
+.step-subtitle{
+    color:gray;
+}
